@@ -1,0 +1,88 @@
+/* Footer Styling */
+footer {
+  background-color: #ffffff;
+  color: #004c4c;
+  padding: 40px 20px 10px;
+  margin-top: 40px;
+  border-top: 2px solid #00a68a1a;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* About Section */
+.footer-about h3 {
+  color: #006778;
+  margin-bottom: 10px;
+}
+
+.footer-about p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Links Section */
+.footer-links h4,
+.footer-contact h4 {
+  color: #006778;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 6px;
+}
+
+.footer-links ul li a {
+  color: #004c4c;
+  text-decoration: none;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #00798e;
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.footer-contact p {
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.footer-contact a {
+  color: #004c4c;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: #00798e;
+  text-decoration: underline;
+}
+
+/* Bottom Line */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+  color: #666666;
+}
+
+/* Responsive Footer */
+@media (max-width: 600px) {
+  .footer-container {
+    text-align: center;
+  }
+}
