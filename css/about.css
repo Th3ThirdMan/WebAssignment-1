@@ -1,0 +1,54 @@
+/* About Page Styling */
+.about-detail {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: start;
+  gap: 40px;
+  margin: 10px 0;
+}
+
+/* Text column */
+.about-text h3 {
+  color: #006778;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+
+/* Image column */
+.about-images {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 450px;
+}
+
+.about-images img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 768px) {
+  .about-detail {
+    grid-template-columns: 1fr;
+  }
+
+  .about-images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-images img {
+    width: 45%;
+  }
+}

@@ -12,6 +12,11 @@ body {
   line-height: 1.6;
 }
 
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
 main {
   max-width: 1200px;
   margin: 20px auto;
@@ -29,7 +34,6 @@ main h3 {
 /* Paragraphs in main */
 main p {
   margin-bottom: 15px;
-  font-size: 1rem;
   color: #333;
 }
 
@@ -48,6 +52,32 @@ main .btn:hover {
   background-color: #00798e;
 }
 
+.btn-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn-container span {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.btn-container .btn {
+  background-color: #ffffff;
+  color: #006778;
+  border: 2px solid #006778;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn-container .btn:hover {
+  background-color: #006778; /* invert on hover */
+  color: #ffffff;
+}
+
 /* Hero Section */
 .hero {
   display: flex;
@@ -60,22 +90,32 @@ main .btn:hover {
   margin-bottom: 40px;
 }
 
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  max-width: 500px;
+}
+
+.hero-images img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; /* Maintains aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
 .hero-text {
   flex: 1;
   padding-right: 20px;
   min-width: 280px;
 }
 
-.hero-text h1 {
-  color: #006778;
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
 .hero-text p {
   color: #333;
   line-height: 1.5;
   margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 .hero-img {
@@ -115,4 +155,29 @@ main .btn:hover {
 
 .btn:hover {
   background-color: #00798e;
+}
+
+/* Admissions Page Styling */
+.admissions-detail p {
+  margin-top: 5px;
+  font-size: 0.95rem;
+  color: #333;
+  max-width: 750px;
+  line-height: 1.5;
+}
+
+.admissions-btn .btn {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  color: #006778;
+  border: 2px solid #006778;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.admissions-btn .btn:hover {
+  background-color: #006778; /* invert on hover */
+  color: #ffffff;
 }

@@ -3,36 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>North West Technological University</title>
+    <title>About | North West Technological University</title>
+    <!-- Links to Stylesheets -->
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/images.css"/>
-    <link rel="stylesheet" href="css/grid.css"/>
-    <link rel="stylesheet" href="css/nav.css"/>
+    <link rel="stylesheet" href="css/images.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/about.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="images/logo.png" alt="NWTU Logo">
+        <img src="images/logo.svg" alt="NWTU Logo" />
+        <span class="logo-text">North West Technological University</span>
       </div>
-        <nav>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="students.html">Students</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="about-detail">
+        <div class="about-text">
+          <h3>About Us</h3>
+          <p>
+            North West Technological University was founded in 1987 with a
+            mission to drive innovation and empower future leaders. Our programs
+            combine academic excellence with real-world experience, fostering
+            creativity, problem-solving, and collaboration. With over 10,000
+            students across multiple disciplines, NWTU continues to lead in
+            sustainability, technology, and research.
+          </p>
+
+          <h3>Our Vision</h3>
+          <p>
+            The University aspires to be a global leader in technological
+            innovation, sustainability, and inclusive education. We envision a
+            future where our graduates drive positive change, advance knowledge,
+            and contribute to a more equitable and sustainable world through
+            creativity, research, and collaboration.
+          </p>
+
+          <h3>Our Mission</h3>
+          <p>
+            At North West Technological University, our mission is to cultivate
+            a learning environment that inspires innovation, critical thinking,
+            and global citizenship. We are committed to providing students with
+            cutting-edge education, hands-on research opportunities, and
+            industry collaboration, empowering them to become leaders and
+            problem-solvers who positively impact their communities and the
+            world.
+          </p>
+        </div>
+
+        <div class="about-images">
+          <img src="images/university.jpg" alt="University" />
+          <img src="images/vision.jpg" alt="Laptop" />
+          <!-- <img src="images/mission.jpg" alt="Books" /> -->
+        </div>
+      </section>
+
+      <!-- Leadership or Highlights -->
+      <section class="highlights">
+        <h3>Our Core Values</h3>
+        <div class="grid">
+          <div class="card">
+            <img src="images/innovation.webp" alt="Innovation" />
+            <h3>Innovation</h3>
+            <p>
+              Driving creativity and discovery through cutting-edge research and
+              education.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/community.jpg" alt="Community" />
+            <h3>Community</h3>
+            <p>
+              Fostering inclusion and diversity within and beyond our campus.
+            </p>
+          </div>
+          <div class="card">
+            <img src="images/excellence.jpg" alt="Excellence" />
+            <h3>Excellence</h3>
+            <p>
+              Striving for the highest standards in every aspect of learning and
+              leadership.
+            </p>
+          </div>
+        </div>
+        <div class="btn-container">
+          <span>Find out more about our Students</span>
+          <a href="students.html" class="btn">Student Life</a>
+        </div>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-about">
+          <h3>North West Technological University</h3>
+          <p>
+            Empowering innovation and excellence through education, research,
+            and collaboration.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="about.html">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="courses.html">Courses</a></li>
             <li><a href="admissions.html">Admissions</a></li>
             <li><a href="students.html">Students</a></li>
-            <li><a href="faculty.html">Faculty</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </nav>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>Email: <a href="mailto:info@nwtu.ie">info@nwtu.ie</a></p>
+          <p>Phone: +353 (0)74 123 4567</p>
+          <p>Address: Bundoran, Co. Donegal, Ireland</p>
+        </div>
       </div>
-    </header>
-    <main>
-        <h1>Welcome to the Northwest Technological University</h1>
-        <p>Explore our courses and join a community of innovators and leaders.</p>
-    </main>  
-    <footer>
-        <p>&copy; 2025 North West Technological University. All rights reserved.</p>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 North West Technological University. All rights reserved.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
