@@ -181,3 +181,29 @@ main .btn:hover {
   background-color: #006778; /* invert on hover */
   color: #ffffff;
 }
+
+.contact-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 70px;
+  margin: 20px 50px;
+}
+
+.contact-text {
+  color: #006778;
+}
+
+.contact-text p {
+  color: #333;
+  line-height: 1.7;
+}
+
+.contact-side {
+  color: #006778;
+}
+
+.contact-side p {
+  color: #333;
+  margin-bottom: 10px;
+}
