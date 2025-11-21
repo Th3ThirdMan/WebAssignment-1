@@ -83,7 +83,7 @@ main .btn:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* Allows text and images to stack */
   background-color: #f5f8f8;
   padding: 40px 20px;
   border-radius: 6px; /* Rounds the Hero Block */

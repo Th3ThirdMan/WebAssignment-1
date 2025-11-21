@@ -54,7 +54,7 @@ img {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments higher than 768px*/
 @media (min-width: 768px) {
   .hero {
     flex-direction: row;
