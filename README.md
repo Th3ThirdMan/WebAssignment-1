@@ -1,6 +1,6 @@
 <h1>Site Overview</h1>
 
-This project is a fictional university, the North West Technological University. It is intended to serve as a pastiche project, taking inspiration from real-life academic facilites. As I pursue my own academic goals I felt it could be an interesting project to try to design my own university website, applying the knowledge I've acquired so far in the course, along with already learned frontend knowledge.
+This project is a fictional university, the North West Technological University. It is intended to serve as a pastiche project, taking inspiration from real-life academic facilites. As I pursue my own academic goals I felt it could be an interesting project to try to design my own university website, applying the knowledge I've acquired so far in the course, along with already learned frontend knowledge from the Code Institute.
 
 It's a website designed to market and promote a university, showcasing its facilities, programs and support services. It's designed to highlight what the university has to offer, with the express intention of engaging with prospective students.
 
@@ -44,11 +44,29 @@ The Footer section also employed CSS grid display, again with grid-template-colu
 
 Apart from varying different elements in the stylesheets, like colours, line-heights and margins, the techniques used were repeated to good effect through all the pages. The buttons responded to the next page and there was a nice flow from Home to Contact pages. At times I felt this was unadventurous, but it rendered well and served its designed purpose.
 
-<h1>Testing</h1>
+<h1>Testing, Content & Responsiveness</h1>
+
+<h2>Testing</h2>
+
+The site was tested on different browsers, Chrome, Safari and Firefox.
+
+No errors reported.
+
+Website works as expected.
 
 <h2>Content</h2>
 
-Index.html - Main, Hero & Highlights section in Main.css
+Index.html: Main, Hero & Highlights detail - Linked to nav.css, main.css, images.css, grid.css, footer.css.
+
+About.html: Main & Highlights detail - Linked to nav.css, main.css, images.css, grid.css, footer.css.
+
+Courses.html: Courses detail - Linked to nav.css, main.css, images.css, grid.css, footer.css.
+
+Admissions.html: Admissions detail - Linked to nav.css, main.css, footer.css.
+
+Students.html: Students detail - Linked to nav.css, main.css, footer.css.
+
+Contact.html: Contact details - Linked to nav.css, footer.css.
 
 <h2>Responsiveness</h2>
 
