@@ -78,18 +78,24 @@ The Courses, Admissions, Students and Contact don't require media queries as the
 
 <h2>Referenced Material</h2>
 
-- Media Icons[Iconscout](https://iconscout.com/)
+- Media Icons [Iconscout](https://iconscout.com/)
 
-* Media Icons[Emojipedia](https://emojipedia.org/)
+* Media Icons [Emojipedia](https://emojipedia.org/)
 
-* SVG Icons[SVGRepo](https://www.svgrepo.com/)
+* SVG Icons [SVGRepo](https://www.svgrepo.com/)
 
-* CSS Grid[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* CSS Grid [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-* CSS Flexbox[CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* CSS Flexbox [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
-- Image Source[Pixabay](https://pixabay.com/)
+- Image Source [Pixabay](https://pixabay.com/)
 
-- Inspiration[Maynooth](https://www.maynoothuniversity.ie/)
+- Inspiration [Maynooth](https://www.maynoothuniversity.ie/)
 
-- Inspiration[SETU](https://www.setu.ie/)
+- Inspiration [SETU](https://www.setu.ie/)
+
+* Box Shadow [JoshWComeau](https://www.joshwcomeau.com/css/designing-shadows/)
+
+* Media Queries [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using)
+
+* Colour Theme [AdobeColor](https://colour.adobe.com/)
