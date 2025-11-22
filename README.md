@@ -88,6 +88,8 @@ The Courses, Admissions, Students and Contact don't require media queries as the
 
 * CSS Flexbox [CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
+* CSS Flexbox [Developedbyed](https://www.youtube.com/watch?v=FTlczfR82mQ)
+
 - Image Source [Pixabay](https://pixabay.com/)
 
 - Inspiration [Maynooth](https://www.maynoothuniversity.ie/)
